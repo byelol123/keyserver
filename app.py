@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Add your keys here — "KEY": "YYYY-MM-DD expiry"
 KEYS = {
-    "TESTKEY-1234": "2026-12-31",
-    "TESTKEY-5678": "2026-12-31",
+    "TESTKEY-1234": "2027-12-31",
+    "TESTKEY-5678": "2027-12-31",
 }
 
 @app.route("/validate", methods=["POST"])
